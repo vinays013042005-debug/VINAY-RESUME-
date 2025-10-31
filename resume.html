@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Alex Johnson</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="resume.html" class="active">Resume</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="resume-section">
+            <h2>Personal Information</h2>
+            <table class="data-table">
+                <tr><th>Name</th><td>Alex Johnson</td></tr>
+                <tr><th>Address</th><td>123 Tech Lane, Silicon Valley, CA 90210</td></tr>
+                <tr><th>Phone</th><td>(555) 123-4567</td></tr>
+                <tr><th>Email</th><td>alex.johnson@example.com</td></tr>
+                <tr><th>LinkedIn</th><td><a href="https://linkedin.com/in/alexjohnson" target="_blank">linkedin.com/in/alexjohnson</a></td></tr>
+            </table>
+        </section>
+
+        <section class="resume-section">
+            <h2>Education</h2>
+            <div class="job-entry">
+                <h3>Master of Science in Computer Science</h3>
+                <p><strong>Massachusetts Institute of Technology (MIT)</strong> | <em>2018 - 2020</em></p>
+                <p>Specialization in Software Engineering and Data Structures.</p>
+            </div>
+            <div class="job-entry">
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p><strong>University of California, Berkeley</strong> | <em>2014 - 2018</em></p>
+                <p>Graduated Summa Cum Laude.</p>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>**Languages:** JavaScript (ES6+), Python, Java, SQL, HTML5, CSS3</li>
+                <li>**Frameworks/Libraries:** React, Node.js, Express, Django, jQuery, Bootstrap</li>
+                <li>**Databases:** PostgreSQL, MongoDB, MySQL, Firebase</li>
+                <li>**Tools/Platforms:** Git/GitHub, Docker, AWS, Heroku, RESTful APIs, TDD (Jest/Mocha)</li>
+            </ul>
+        </section>
+
+        <section class="resume-section">
+            <h2>Work Experience</h2>
+            <div class="job-entry">
+                <h3>Senior Software Engineer</h3>
+                <p><strong>Tech Innovators Inc.</strong> | <em>Jan 2022 - Present</em></p>
+                <ul>
+                    <li>Led a team of 5 developers in the design and deployment of a core microservice, improving system latency by 25%.</li>
+                    <li>Developed and maintained RESTful APIs using Node.js and Express, serving over 1 million daily users.</li>
+                    <li>Mentored junior engineers and conducted code reviews, ensuring high code quality standards.</li>
+                </ul>
+            </div>
+            <div class="job-entry">
+                <h3>Junior Developer</h3>
+                <p><strong>Digital Solutions Co.</strong> | <em>Aug 2020 - Dec 2021</em></p>
+                <ul>
+                    <li>Contributed to front-end development using React, implementing new UI features and bug fixes.</li>
+                    <li>Designed and optimized database schemas (PostgreSQL) for various application modules.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2>Projects</h2>
+            <div class="project-entry">
+                <h3>E-commerce Platform Clone</h3>
+                <p>A full-stack application built with **MERN** (MongoDB, Express, React, Node) stack. Features user authentication, product catalog, and secure payment gateway integration.</p>
+                <p class="project-link">**Link:** <a href="#" target="_blank">github.com/alex/ecommerce</a></p>
+            </div>
+            <div class="project-entry">
+                <h3>Data Visualization Dashboard</h3>
+                <p>A Python (Django) and D3.js project to process and visualize large datasets from public APIs, providing real-time analytics.</p>
+                <p class="project-link">**Link:** <a href="#" target="_blank">github.com/alex/viz-dashboard</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Alex Johnson. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
